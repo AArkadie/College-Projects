@@ -1,0 +1,18 @@
+c:\users\anthoney\documents\visual studio 2015\Projects\NeuralNet\NeuralNet\bin\Debug\NeuralNet.exe.config
+c:\users\anthoney\documents\visual studio 2015\Projects\NeuralNet\NeuralNet\bin\Debug\NeuralNet.exe
+c:\users\anthoney\documents\visual studio 2015\Projects\NeuralNet\NeuralNet\bin\Debug\NeuralNet.pdb
+c:\users\anthoney\documents\visual studio 2015\Projects\NeuralNet\NeuralNet\obj\Debug\NeuralNet.csprojResolveAssemblyReference.cache
+c:\users\anthoney\documents\visual studio 2015\Projects\NeuralNet\NeuralNet\obj\Debug\NeuralNet.Form1.resources
+c:\users\anthoney\documents\visual studio 2015\Projects\NeuralNet\NeuralNet\obj\Debug\NeuralNet.Properties.Resources.resources
+c:\users\anthoney\documents\visual studio 2015\Projects\NeuralNet\NeuralNet\obj\Debug\NeuralNet.csproj.GenerateResource.Cache
+c:\users\anthoney\documents\visual studio 2015\Projects\NeuralNet\NeuralNet\obj\Debug\NeuralNet.exe
+c:\users\anthoney\documents\visual studio 2015\Projects\NeuralNet\NeuralNet\obj\Debug\NeuralNet.pdb
+C:\Users\Anthoney\Desktop\Programming stuff\310\NeuralNet\NeuralNet\bin\Debug\NeuralNet.exe.config
+C:\Users\Anthoney\Desktop\Programming stuff\310\NeuralNet\NeuralNet\obj\Debug\NeuralNet.exe
+C:\Users\Anthoney\Desktop\Programming stuff\310\NeuralNet\NeuralNet\obj\Debug\NeuralNet.pdb
+C:\Users\Anthoney\Desktop\Programming stuff\310\NeuralNet\NeuralNet\bin\Debug\NeuralNet.exe
+C:\Users\Anthoney\Desktop\Programming stuff\310\NeuralNet\NeuralNet\bin\Debug\NeuralNet.pdb
+C:\Users\Anthoney\Desktop\Programming stuff\310\NeuralNet\NeuralNet\obj\Debug\NeuralNet.csprojResolveAssemblyReference.cache
+C:\Users\Anthoney\Desktop\Programming stuff\310\NeuralNet\NeuralNet\obj\Debug\NeuralNet.Form1.resources
+C:\Users\Anthoney\Desktop\Programming stuff\310\NeuralNet\NeuralNet\obj\Debug\NeuralNet.Properties.Resources.resources
+C:\Users\Anthoney\Desktop\Programming stuff\310\NeuralNet\NeuralNet\obj\Debug\NeuralNet.csproj.GenerateResource.Cache

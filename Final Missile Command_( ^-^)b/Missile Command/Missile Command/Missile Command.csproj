@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{29E2708B-963E-451F-97C9-21C133E7F69E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Missile_Command</RootNamespace>
+    <AssemblyName>Missile Command</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BacteriaSettings.cs" />
+    <Compile Include="CactusSettings.cs" />
+    <Compile Include="CandidateChooser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CandidateChooser.Designer.cs">
+      <DependentUpon>CandidateChooser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CandidateTemplate.cs" />
+    <Compile Include="CatSettings.cs" />
+    <Compile Include="Cell.cs" />
+    <Compile Include="Circle.cs" />
+    <Compile Include="City.cs" />
+    <Compile Include="DefaultSettings.cs" />
+    <Compile Include="DogSettings.cs" />
+    <Compile Include="DonkeySettings.cs" />
+    <Compile Include="ElephantSettings.cs" />
+    <Compile Include="Enemy.cs" />
+    <Compile Include="EnemyCell.cs" />
+    <Compile Include="Explosion.cs" />
+    <Compile Include="FalconSettings.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrogSettings.cs" />
+    <Compile Include="GObj.cs" />
+    <Compile Include="Launcher.cs" />
+    <Compile Include="Line.cs" />
+    <Compile Include="Missile.cs" />
+    <Compile Include="MovingCircle.cs" />
+    <Compile Include="MushroomSettings.cs" />
+    <Compile Include="OctopusSettings.cs" />
+    <Compile Include="Point2.cs" />
+    <Compile Include="Prefabs.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rectangle.cs" />
+    <Compile Include="ResultsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ResultsForm.Designer.cs">
+      <DependentUpon>ResultsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Shell.cs" />
+    <Compile Include="SpiderSettings.cs" />
+    <Compile Include="StructurePrefab.cs" />
+    <Compile Include="SunfishSettings.cs" />
+    <Compile Include="TapewormSettings.cs" />
+    <EmbeddedResource Include="CandidateChooser.resx">
+      <DependentUpon>CandidateChooser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ResultsForm.resx">
+      <DependentUpon>ResultsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Pictures\bacteria.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Pictures\bacteriaWin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Pictures\cactus.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Pictures\cactusWin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Pictures\cat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Pictures\catWin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Pictures\dog.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Pictures\dogWin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Pictures\donkey.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Pictures\donkeyWin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Pictures\elephant.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Pictures\elephantWin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Pictures\falcon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Pictures\falconWin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Pictures\frog.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Pictures\frogWin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Pictures\mushroom.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Pictures\mushroomWin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Pictures\octopus.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Pictures\octopusWin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Pictures\spider.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Pictures\spiderWin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Pictures\sunfish.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Pictures\sunfishWin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Pictures\tapeworm.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Pictures\tapewormWin.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
